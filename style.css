@@ -1,0 +1,80 @@
+/* ---------------------------------- splash page styling */
+
+
+.splash {
+    height:82vh;
+}
+
+.splash-box {
+    border-radius: 100px;
+    filter: 
+        drop-shadow(10px 10px 0px #ff87a3)
+        drop-shadow(10px 10px 0px #db6c4e) 
+        drop-shadow(10px 10px 0px #e05155) 
+}
+
+#carousel-main {
+    border-radius: 100px;
+}
+
+.carousel-img {
+    border-radius: 100px;
+    filter: drop-shadow(1px 1px 3px black);
+}
+
+.carousel-caption {
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 100px;
+}
+
+html {
+    background-color: white;
+}
+body {
+    height: 100vh;
+}
+
+/* ------------------------------- bootstrap toasts */
+
+.message-container {
+    position: fixed;
+    top: 70px;
+    right: 12px;
+    z-index: 999;
+}
+
+.custom-toast {
+    overflow: visible;
+}
+
+.toast-capper {
+    height: 4px;
+}
+
+/* -------------------------------- background colors */
+.bg-dorange {
+    background-color: #CA6702
+}
+
+.bg-orange {
+    background-color: #F4A127
+}
+
+.bg-beige {
+    background-color: #FFECB4
+}
+
+.bg-teal {
+    background-color: #75C8AE
+}
+
+/* ------------------------------- Universal styling */
+.content {
+    border-radius: 100px 0 0 100px;
+    border: #5A3D2B solid 20px;
+    border-right:none;
+}
+
+body {
+    background-color: #F4A127
+}
